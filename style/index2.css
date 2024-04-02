@@ -1,9 +1,5 @@
 @import url("./reset.css");
 
-* {
-  border: 1px solid lime !important;
-}
-
 p {
   font-family: "Overpass", sans-serif;
   line-height: 1.5;
