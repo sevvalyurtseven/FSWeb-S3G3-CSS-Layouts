@@ -42,8 +42,8 @@ nav a:hover {
 }
 
 main {
-  width: 133vh; /*yataydaki genislik */
-  height: 80vh; /* dikeydeki yükseklik ekranin yüzde 80ini alsin */
+  width: 80%; /*yataydaki genislik */
+  height: 600px; /* dikeydeki yükseklik */
   margin: auto; /* ortala */
   background-image: url("https://picsum.photos/800/500");
   background-size: cover; /*resmi belirledigimiz alana sigdirir.*/
@@ -86,7 +86,7 @@ section {
 }
 
 section div {
-  width: 30vw;
+  width: 30%;
   margin-bottom: 3%;
 }
 
