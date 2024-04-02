@@ -1,1 +1,24 @@
 /* CSS stillerinizi buraya girin */
+
+header {
+  display: flex;
+  justify-content: space-between; /* sol ve sağa yaslar */
+  align-items: center; /* dikey ortalama */
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  border: 1px solid black;
+  background-color: rgb(37, 81, 134);
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav a:hover {
+  background-color: rgb(70, 134, 212);
+  color: white;
+}
