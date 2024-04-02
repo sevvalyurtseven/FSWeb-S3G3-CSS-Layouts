@@ -1,5 +1,13 @@
 /* CSS stillerinizi buraya girin */
 
+body {
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: rgb(141, 181, 230);
+}
+
 header {
   display: flex;
   justify-content: space-between; /* sol ve sağa yaslar */
