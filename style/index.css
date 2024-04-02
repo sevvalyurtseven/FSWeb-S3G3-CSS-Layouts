@@ -38,3 +38,38 @@ nav a:hover {
   background-color: rgb(70, 134, 212);
   color: white;
 }
+
+main {
+  width: 100vh; /*yataydaki genislik */
+  height: 60vh; /* dikeydeki yükseklik ekranin yüzde 60ini alsin */
+  margin: auto; /* ortala */
+  background-image: url("https://picsum.photos/800/500");
+  background-size: cover; /*resmi belirledigimiz alana sigdirir.*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main h1 {
+  color: rgb(180, 201, 214);
+  border: 1px solid black;
+  background-color: rgb(37, 81, 134);
+  text-align: center;
+  padding: 10px;
+}
+
+main a {
+  border: 1px solid black;
+  background-color: rgb(37, 81, 134);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  width: 200px;
+  padding: 20px 0;
+}
+
+main a:hover {
+  background-color: rgb(70, 134, 212);
+  color: white;
+}
