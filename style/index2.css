@@ -1,0 +1,52 @@
+@import url("./reset.css");
+
+* {
+  border: 1px solid lime !important;
+}
+
+p {
+  font-family: "Overpass", sans-serif;
+}
+
+a {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1rem;
+  display: inline-block; /*padding aktif oldu */
+  background-color: rgb(42, 47, 59);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px; /* harfler arasındaki bosluk */
+  transition: background-color 0.3s ease-out; /*animasyon ekledik */
+}
+
+a:hover {
+  background-color: rgb(196, 211, 230);
+  color: rgb(42, 47, 59);
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2rem;
+}
+header,
+footer {
+  background-color: rgb(201, 199, 197);
+  padding: 2rem 0;
+}
+
+header h1 {
+  margin-bottom: 1rem;
+}
+
+nav > ul {
+  display: flex;
+}
+
+.container {
+  max-width: 1080px; /* relative genislik verdik */
+  margin: 0 auto; /* ortalama */
+}
