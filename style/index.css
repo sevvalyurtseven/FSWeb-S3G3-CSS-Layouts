@@ -14,6 +14,12 @@ header {
   align-items: center; /* dikey ortalama */
 }
 
+header h2 {
+  color: rgb(18, 52, 70);
+  width: 400px;
+  text-align: center;
+}
+
 nav {
   display: flex;
 }
@@ -23,7 +29,9 @@ nav a {
   background-color: rgb(37, 81, 134);
   color: white;
   text-decoration: none;
-  padding: 10px 20px;
+  text-align: center;
+  width: 100px;
+  padding: 10px 0;
 }
 
 nav a:hover {
