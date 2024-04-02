@@ -6,6 +6,8 @@ body {
   font-weight: 500;
   font-style: normal;
   background-color: rgb(141, 181, 230);
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -40,14 +42,15 @@ nav a:hover {
 }
 
 main {
-  width: 100vh; /*yataydaki genislik */
-  height: 60vh; /* dikeydeki yükseklik ekranin yüzde 60ini alsin */
+  width: 133vh; /*yataydaki genislik */
+  height: 80vh; /* dikeydeki yükseklik ekranin yüzde 80ini alsin */
   margin: auto; /* ortala */
   background-image: url("https://picsum.photos/800/500");
   background-size: cover; /*resmi belirledigimiz alana sigdirir.*/
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
   justify-content: center;
 }
 
@@ -59,17 +62,53 @@ main h1 {
   padding: 10px;
 }
 
-main a {
+main a,
+footer a {
   border: 1px solid black;
   background-color: rgb(37, 81, 134);
   color: white;
   text-decoration: none;
   text-align: center;
-  width: 200px;
+  width: 100px;
   padding: 20px 0;
 }
 
-main a:hover {
+main a:hover,
+footer a:hover {
   background-color: rgb(70, 134, 212);
   color: white;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section div {
+  width: 30vw;
+  margin-bottom: 3%;
+}
+
+section h3 {
+  text-align: center;
+}
+
+section img {
+  width: 100%;
+}
+
+footer {
+  background-color: grey;
+  padding: 5%;
+  text-align: center;
+}
+
+footer a {
+  display: block;
+  margin: auto;
+}
+
+.spacer {
+  height: 3vw;
 }
