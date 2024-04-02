@@ -78,6 +78,7 @@ nav > ul {
   align-items: center; /*ortalama*/
   gap: 2rem;
   flex-wrap: wrap;
+  margin: 2rem;
 }
 
 .hero-text {
@@ -98,6 +99,15 @@ nav > ul {
 
 .project-item {
   flex-basis: 250px; /*minnum genislik */
+  transition: opacity 0.3s ease-out;
+}
+.project-item:hover {
+  opacity: 0.8;
+}
+
+section p {
+  text-align: center;
+  padding: 1rem;
 }
 
 .project-img img {
